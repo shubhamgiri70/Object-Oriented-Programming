@@ -16,7 +16,7 @@ function question(title, options, correctAnswerIndex) {
   return question;
 }
 
-// protoyypal pattern
+// prototypal pattern
 
 let questionMethod = {
   isAnswerCorrect: function (index) {
