@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <header><h1>MyBookList</h1></header>
+        <form action="" class="form">
+          <label for="title">Title</label>
+          <input
+            name="bookTitle"
+            type="text"
+            id="title"
+            placeholder="Book Title"
+            class="input"
+          />
+          <label for="author">Author</label>
+          <input
+            name="bookAuthor"
+            type="text"
+            id="author"
+            placeholder="Book Author"
+            class="input"
+          />
+          <label for="isbn">ISBN#</label>
+          <input name="isbn" type="text" id="isbn" class="input" />
+          <button class="addBook-btn" type="submit">Add Book</button>
+        </form>
+        <div class="content-container">
+          <div class="booklist-heading">
+            <p>Title</p>
+            <p>Author</p>
+            <p>ISBN#</p>
+            <p>Remove</p>
+          </div>
+          <hr />
+          
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
