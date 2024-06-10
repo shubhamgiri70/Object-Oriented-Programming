@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#input {
+  width: 350px;
+  height: 48px;
+  border: 1px solid black;
+  font-size: 26px;
+  vertical-align: middle;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#addToDo {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 26px;
+  vertical-align: middle;
+}
+
+#to-dos {
+  margin-top: 20px;
+}
+
+.para {
+  margin: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 0.5rem;
+  vertical-align: middle;
+}
