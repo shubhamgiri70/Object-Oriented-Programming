@@ -1,0 +1,63 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+legend {
+  background-color: black;
+  color: white;
+  padding: 4px;
+}
+
+.options {
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+}
+
+.options div {
+  margin-bottom: 1rem;
+}
+
+button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+footer button {
+  border: none;
+  background-color: rgb(226, 117, 9);
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.show_result {
+  visibility: hidden;
+}
